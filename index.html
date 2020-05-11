@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gifOS</title>
+    <link rel="icon" type="image/png" href="./images/gifOF_logo.png">
+    <link id="tema-oscuro" rel="stylesheet" type="text/css" href="./styles/nightTheme.css">
+    <link id="tema-claro" rel="stylesheet" type="text/css" href="./styles/dayTheme.css">
+    <script src="https://kit.fontawesome.com/cf15cfbcb8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="navbar">
+        <h1 class="bienvenidos">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas:
+            12.765.803</h1>
+    </header>
+
+    <div class="contenedor-principal">
+
+        <main class="menu">
+            <a class="day-img-logo" href="./index.html"><img class="day-img" src="./images/gifOF_logo.png"
+                    alt="logo gifos"></a>
+            <a class="night-img-logo" href="./index.html"><img class="night-img" src="./images/gifOF_logo_dark.png"
+                    alt="logo gifos"></a>
+            <div class="items">
+                <button class="item-crear">Crear Guifos</button>
+                <div class="item-elegir">
+                    <div class="item-elegir-boton">
+                        <button class="elegir">Elegir tema</button>
+                        <button class="flecha"><img class="day-img" src="./images/dropdown.svg" alt=""><img
+                                class="night-img" src="./images/dropdowndark.svg" alt=""></button>
+                    </div>
+                    <div class="item-elegir-temas" id="menu_temas">
+                        <button class="day">Sailor Day</button>
+                        <button class="night">Sailor Night</button>
+                    </div>
+                </div>
+                <button class="mis-gifos">Mis Guifos</button>
+            </div>
+        </main>
+
+        <section class="buscar">
+            <div class="buscar-cuadro">
+                <h3>Buscar</h3>
+            </div>
+            <div class="input-contenedor">
+                <div class="input">
+                    <input class="campo-input" type="text"
+                        placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">
+                    <button class="buscar-boton">
+                        <img class="lupa" src="./images/lupa.svg" alt="imagen lupa">
+                        <img class="lupa-inactiva-light" src="./images/lupa_inactive.svg" alt="">
+                        <img class="lupa-inactiva-dark" src="./images/Combined_Shape.svg" alt="">
+                        <img class="lupa-blanca" src="./images/lupa_light.svg" alt="">
+                        <span>Buscar</span>
+                    </button>
+                </div>
+            </div>
+            <div class="contenedor-resultado-sugerencias">
+                <div class="resultado-sugerencias">
+                    <button id="sug1" class="boton-sugerencias">Cargando resultado...</button>
+                    <button id="sug2" class="boton-sugerencias">Cargando resultado...</button>
+                    <button id="sug3" class="boton-sugerencias">Cargando resultado...</button>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-tags">
+            <h2 style="display: none;">Sugerencias</h2>
+            <button class="tag boton-tag"></button>
+            <button class="tag boton-tag"></button>
+            <button class="tag boton-tag"></button>
+            <button class="tag boton-tag"></button>
+            <button class="tag boton-tag"></button>
+            <button class="tag boton-tag"></button>
+            <button class="tag boton-tag"></button>
+            <button class="tag boton-tag"></button>
+            <button class="tag boton-tag"></button>
+            <button class="tag boton-tag"></button>
+            
+        </section>
+
+        <section class="sugerencias">
+            <h4>Hoy te sugerimos:</h4>
+
+            <div class="sugerencias-contenedor">
+
+                <div class="sugerencias-gif">
+                    <figure class="sugerencias-imagen">
+                        <figcaption class="sgif"></figcaption>
+                        <img src="./images/button_close.svg" alt="botón para cerrar gif">
+                    </figure>
+                    <img class="giffy giff" src="./images/cargandogif.png" alt="">
+                    <button class="boton-ver-mas">Ver más...</button>
+                </div>
+                <div class="sugerencias-gif">
+                    <figure class="sugerencias-imagen">
+                        <figcaption class="sgif"></figcaption>
+                        <img src="./images/button_close.svg" alt="botón para cerrar gif">
+                    </figure>
+                    <img class="giffy giff" src="./images/cargandogif.png" alt="">
+                    <button class="boton-ver-mas">Ver más...</button>
+                </div>
+                <div class="sugerencias-gif">
+                    <figure class="sugerencias-imagen">
+                        <figcaption class="sgif"></figcaption>
+                        <img src="./images/button_close.svg" alt="botón para cerrar gif">
+                    </figure>
+                    <img class="giffy giff" src="./images/cargandogif.png" alt="">
+                    <button class="boton-ver-mas">Ver más...</button>
+                </div>
+                <div class="sugerencias-gif">
+                    <figure class="sugerencias-imagen">
+                        <figcaption class="sgif"></figcaption>
+                        <img src="./images/button_close.svg" alt="botón para cerrar gif">
+                    </figure>
+                    <img class="giffy giff" src="./images/cargandogif.png" alt="">
+                    <button class="boton-ver-mas">Ver más...</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="tendencias">
+            <h4 class="tendenciasTitulo">Tendencias:</h4>
+
+            <div class="tendencias-contenedor">
+
+                <div class="tendencias-contenedor-gif">
+                    <div class="tendencias-recuadro"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo"></figcaption>
+                    </figure>
+                </div>
+                <div class="tendencias-contenedor-gif">
+                    <div class="tendencias-recuadro"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo"></figcaption>
+                    </figure>
+                </div>
+                <div class="tendencias-contenedor-gif">
+                    <div class="tendencias-recuadro"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo"></figcaption>
+                    </figure>
+                </div>
+                <div class="tendencias-contenedor-gif">
+                    <div class="tendencias-recuadro"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo"></figcaption>
+                    </figure>
+                </div>
+
+                <div class="tendencias-contenedor-gif-doble">
+                    <div class="tendencias-recuadro-doble"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif-doble" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo-doble"></figcaption>
+                    </figure>
+                </div>
+
+                <div class="tendencias-contenedor-gif">
+                    <div class="tendencias-recuadro"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo"></figcaption>
+                    </figure>
+                </div>
+                <div class="tendencias-contenedor-gif">
+                    <div class="tendencias-recuadro"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo"></figcaption>
+                    </figure>
+                </div>
+
+                <div class="tendencias-contenedor-gif">
+                    <div class="tendencias-recuadro"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo"></figcaption>
+                    </figure>
+                </div>
+                <div class="tendencias-contenedor-gif">
+                    <div class="tendencias-recuadro"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo"></figcaption>
+                    </figure>
+                </div>
+
+                <div class="tendencias-contenedor-gif-doble-derecha">
+                    <div class="tendencias-recuadro-doble-derecha"></div>
+                    <figure class="tendencias-imagen">
+                        <img class="gif tendencias-gif-doble-derecha" src="./images/cargandogif.png" alt="">
+                        <figcaption class="sub subtitulo-doble-derecha"></figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <h5>gif<span>.</span><span>OS</span></h5>
+            <div class="copyright">
+                <i class="fas fa-registered"></i>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="./script/index.js"></script>
+</body>
+
+</html>

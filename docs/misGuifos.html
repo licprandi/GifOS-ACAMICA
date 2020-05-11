@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gifOS</title>
+    <link rel="icon" type="image/png" href="./images/gifOF_logo.png">
+    <link id="tema-oscuro" rel="stylesheet" type="text/css" href="./styles/nightTheme.css">
+    <link id="tema-claro" rel="stylesheet" type="text/css" href="./styles/dayTheme.css">
+    <script src="https://kit.fontawesome.com/cf15cfbcb8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="navbar">
+        <h1 class="bienvenidos">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas:
+            12.765.803</h1>
+    </header>
+
+    <div class="contenedor-principal">
+
+        <main class="menu">
+            <a class="day-img-logo" href="./index.html"><img class="day-img" src="./images/gifOF_logo.png"
+                    alt="logo gifos"></a>
+            <a class="night-img-logo" href="./index.html"><img class="night-img" src="./images/gifOF_logo_dark.png"
+                    alt="logo gifos"></a>
+            <div class="items">
+                <button class="item-crear">Crear Guifos</button>
+                <div class="item-elegir">
+                    <div class="item-elegir-boton">
+                        <button class="elegir">Elegir tema</button>
+                        <button class="flecha"><img class="day-img" src="./images/dropdown.svg" alt=""><img
+                                class="night-img" src="./images/dropdowndark.svg" alt=""></button>
+                    </div>
+                    <div class="item-elegir-temas" id="menu_temas">
+                        <button class="day">Sailor Day</button>
+                        <button class="night">Sailor Night</button>
+                    </div>
+                </div>
+                <button class="mis-gifos">Mis Guifos</button>
+            </div>
+        </main>
+
+        <div class="contenedor-mis-guifos">
+            <section class="sugerencias">
+                <h4>Mis guifos</h4>
+            </section>
+        </div>
+
+        <div class="tendencias-contenedor" id="mis-gifs"></div>
+
+        <script src="./script/misGuifos.js"></script>
+    </div>
+</body>
+
+</html>
