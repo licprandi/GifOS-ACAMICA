@@ -823,6 +823,14 @@ h5 span:first-child {
     left: -40px;
 }
 
+.arrow-img2 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 5px;
+    left: -750px;
+}
+
 /* GRABAR GUIFOS--------------------------------------- */
 
 .contenedor-grabar-guifos {
@@ -1268,12 +1276,6 @@ h5 span:first-child {
     background: #F7C9F3;
     border: 1px solid #110038;
     box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
-}
-
-.arrow-img {
-    position: relative;
-    top: -70px;
-    left: -40px;
 }
 
 .contenedor-crear-guifos {
